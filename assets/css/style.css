@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+body {
+  background-color: #2B2C2F;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: auto; 
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-family: "Tajawal", sans-serif;
+}
+
+.hero_div{
+  background-color: #303030;
+  height: auto;
+  width: 750px;
+  margin: auto;
+  border: 3px solid #424242;
+  margin: auto;
+}
+
+.head_div {
+  background-color: #384152;
+  height: 55px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.head_div h2 {
+  margin: 0 auto;
+  
+}
+
+.head_div i {
+  margin-right: 15px;
+  margin-left: 0;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  background-color: white;
+  color: #384152;
+  transition: all 0.7s ease;
+}
+
+.head_div i:hover{
+  background-color: #424242;
+  color:white;
+  transition: all 0.7s ease;
+} 
+
+.each_task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #384152;
+  height: 70px;
+  width: 742px;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.right_side {
+  margin-right: 30px;
+  width: 60%;
+  text-align: right;
+  align-items: center;
+  color: white;
+
+}
+
+.right_side h3{
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.left_side {
+  margin-left : 50px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 40%;
+  
+}
+
+.fa-solid {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.fa-pen {
+  background-color: #0096FF;
+}
+
+.fa-check {
+  background-color: #50C878;
+}
+
+.fa-trash {
+  background-color: #EE4B2B;
+}
+
+.fa-solid:hover{
+  background-color: #303030;
+  transition: all 0.7s ease;
+  box-shadow: inset 0 0 0 1.5px white; 
+  
+}
+
+.fa-clock {
+  margin-left: 7px;
+}
+
+.each_task_changed {
+  background-color: #088F8F;
+}
+
+.fa-x {
+  background-color: #fc5f7e;
+}
